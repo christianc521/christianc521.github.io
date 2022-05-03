@@ -10,7 +10,7 @@ const options = {
   flipHorizontal: true,
 }
 function setup() {
-    createCanvas(600,600);
+    createCanvas(windowWidth,windowHeight);
     video = createCapture(VIDEO);
     video.size(600,600)
     video.hide();
