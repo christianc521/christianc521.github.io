@@ -12,7 +12,7 @@ const options = {
 function setup() {
     createCanvas(windowWidth,windowHeight);
     video = createCapture(VIDEO);
-    video.size(600,600)
+    video.size(windowWidth,windowHeight);
     video.hide();
 
     handpose = ml5.handpose(video, options, modelReady);
