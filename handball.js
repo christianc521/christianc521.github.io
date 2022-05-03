@@ -19,11 +19,6 @@ function setup() {
     handpose.on("predict", gotPoses);
 }
 
-var listOfBenefits = ["Free 2 Credit Course!",
-                      "Connect With Companies",
-                      "Resume Building",
-                      "Free food!"]
-
 function draw() {
   background(50);
   //image(video, 0, 0, height, width);
